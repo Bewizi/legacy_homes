@@ -1,0 +1,10 @@
+@media screen and (min-width:768px) {
+    .rectangle-3 h1{
+        width: 1000px;
+    }
+    .rectangle-3 span{
+        position: absolute;
+        width: 1000px;
+        left: 0.8em;
+    }
+}

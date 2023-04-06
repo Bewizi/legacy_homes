@@ -1,0 +1,279 @@
+.about-us img{
+    position: absolute;
+    top: 155em;
+    left: 73em;
+}
+
+.about-us h1{
+    position: absolute;
+    top: 42em;
+    left: 5em;
+    color: #1C1C1C;
+    font-size: 62px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.about-us p{
+    position: absolute;
+    width: 420px;
+    top: 160em;
+    left: 18em;
+    line-height: 2em;
+    font-size: 17px;
+    color: #5C5C5C;
+    text-align: start;
+}
+
+.about-us span{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    top: 192em;
+    left: 19em;
+    text-align: center;
+    padding: 1.5em 0;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* property */
+.property h1{
+    position: absolute;
+    top: 43em;
+    left: 10em;
+    color: #1C1C1C;
+    font-size: 77px;
+    font-family: 'Cabin Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.property p{
+    position: absolute;
+    width: 900px;
+    top: 203em;
+    left: 28em;
+    text-align: center;
+    font-size: 17px;
+    color: #5C5C5C;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.property-container{
+    position: absolute;
+    top: 220em;
+    left: 20em;
+    gap: 3em;
+    display: flex;
+}
+
+
+
+
+.box-7{
+    width: 360px;
+    height: 600px;
+    border: 1px solid #000;
+}
+
+.box-7 span{
+    position: absolute;
+    width: 313px;
+    top: 15em;
+    left: 1em;
+    font-size: 18px;
+    color: #1C1C1C;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.box-7 i{
+    position: absolute;
+    left: 1em;
+    padding: 22em 0;
+}
+
+.box-7 span:last-child{
+    position: absolute;
+    left: 1em;
+    padding: 7em 0;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.box-7 p{
+    position: absolute;
+    top: 0em;
+    left: -22em;
+    padding: 24em 0;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.box-7 dl{
+    position: relative;
+    display: flex;
+    gap: 9em;
+    top: 10em;
+    left: 1em;
+    line-height: 2em;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    color: #1E1E1E;
+}
+
+.box-7 h3{
+    position: relative;
+    top: 12em;
+    left: 1.5em;
+    width: 300px;
+    height: 70px;
+    padding: 1.5em 0em;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.box-8{
+    width: 360px;
+    height: 600px;
+    border: 1px solid #000;
+}
+.box-8 span{
+    position: absolute;
+    width: 313px;
+    top: 15em;
+    left: 25em;
+    font-size: 18px;
+    color: #1C1C1C;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.box-8 i{
+    position: absolute;
+    top: 2em;
+    left: 28em;
+    padding: 20em 0;
+}
+
+.box-8 span:last-child{
+    position: absolute;
+    left: 1em;
+    padding: 5em 0;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.box-8 p{
+    position: absolute;
+    top: 0em;
+    left: 5em;
+    padding: 24em 0;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.box-8 dl{
+    position: relative;
+    display: flex;
+    top: 10em;
+    left: 1em;
+    line-height: 2em;
+    gap: 9em;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    color: #1E1E1E;
+}
+.box-8 h3{
+    position: relative;
+    top: 12em;
+    left: 1.5em;
+    width: 300px;
+    height: 70px;
+    padding: 1.5em 0em;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.box-9{
+    width: 360px;
+    height: 600px;
+    border: 1px solid #000;
+}
+.box-9 span{
+    position: absolute;
+    width: 313px;
+    top: 15em;
+    left: 47em;
+    font-size: 18px;
+    color: #1C1C1C;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.box-9 i{
+    position: absolute;
+   left: 53em;
+   padding: 22em 0em;
+}
+
+.box-9 span:last-child{
+    position: absolute;
+    top: 22em;
+    left: 1em;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.box-9 p{
+    position: absolute;
+    top: 0em;
+    left: 30em;
+    padding: 24em 0;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.box-9 dl{
+    position: relative;
+    display: flex;
+    top: 10em;
+    left: 1em;
+    line-height: 2em;
+    gap: 9em;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    color: #1E1E1E;
+}
+
+
+.box-9 h3{
+    position: relative;
+    top: 12em;
+    left: 1.5em;
+    width: 300px;
+    height: 70px;
+    padding: 1.5em 0em;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* end property */

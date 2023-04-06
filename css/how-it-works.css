@@ -1,0 +1,298 @@
+.how-it-works h1{
+    position: absolute;
+    width: 500px;
+    top: 70em;
+    left: 11em;
+    color: #1C1C1C;
+    font-size: 62px;
+    text-transform: uppercase;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.how-it-works p{
+    position: absolute;
+    top: 260em;
+    left: 30em;
+    color: #5C5C5C;
+    font-size: 17px;
+    text-align: center;
+    width: 750px;
+    font-family: 'Work Sans', sans-serif;
+}
+.house-search img{
+    position: absolute;
+    top: 290em;
+    left: 20em;
+}
+.house-search h1{
+    position: absolute;
+    top: 210em;
+    left: 16em;
+    color: #1C1C1C;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.house-search p{
+    position: absolute;
+    width: 414px;
+    top: 298.5em;
+    left: 18em;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 17px;
+    color: #5C5C5C;
+}
+
+.businessman img{
+    position: absolute;
+    top: 285em;
+    left: 65em;
+}
+
+.businessman h1{
+    position: absolute;
+    top: 210em;
+    left: 50em;
+    color: #1C1C1C;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.businessman p{
+    position: absolute;
+    width: 414px;
+    top: 298.5em;
+    left: 62em;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 17px;
+    color: #5C5C5C;
+}
+
+.marketing img{
+    position: absolute;
+    top: 335em;
+    left: 20em;
+}
+
+.marketing h1{
+    position: absolute;
+    top: 242em;
+    left: 16em;
+    color: #1C1C1C;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.marketing p{
+    position: absolute;
+    width: 414px;
+    top: 344em;
+    left: 18em;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 17px;
+    color: #5C5C5C;
+}
+
+.cleanup img{
+    position: absolute;
+    top: 335em;
+    left: 66em;
+}
+
+.cleanup h1{
+    position: absolute;
+    top: 242em;
+    left: 46em;
+    color: #1C1C1C;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.cleanup p{
+    position: absolute;
+    width: 414px;
+    top: 344em;
+    left: 62em;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 17px;
+    color: #5C5C5C;
+}
+.back-to-back img{
+    position: absolute;
+    top: 375em;
+    left: 20em;
+}
+.back-to-back h1{
+    position: absolute;
+    top: 268em;
+    left: 16em;
+    color: #1C1C1C;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.back-to-back p{
+    position: absolute;
+    width: 414px;
+    top: 381em;
+    left: 18em;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 17px;
+    color: #5C5C5C;
+}
+
+.business-deal img{
+    position: absolute;
+    top: 375em;
+    left: 66em;
+}
+
+.business-deal h1{
+    position: absolute;
+    top: 268em;
+    left: 50em;
+    color: #1C1C1C;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.business-deal p{
+    position: absolute;
+    width: 414px;
+    top: 381em;
+    left: 62em;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 17px;
+    color: #5C5C5C;
+}
+
+/* client testimony */
+.client-testimony h1{
+    position: absolute;
+    width: 1000px;
+    top: 108em;
+    font-size: 62px;
+    color: #1C1C1C;
+    text-transform: uppercase;
+}
+
+.client-testimony p{
+    position: absolute;
+    top: 400em;
+    left: 35em;
+    line-height: 1.5em;
+    font-size: 17px;
+    text-align: center;
+    color: #5C5C5C;
+}
+
+
+.woman img{
+    position: absolute;
+    top: 430em;
+    left: 20em;
+}
+
+.woman img:hover{
+    opacity: 0.5;
+
+}
+
+.man-smile{
+    position: absolute;
+    top: 430em;
+    left: 32em;
+    width: 750px;
+    height: 364px;
+    background-color: white;
+}
+.column{
+    position: absolute;
+    top:  1em;
+    margin: 0 2em;
+}
+
+.man-smile p{
+    position: absolute;
+    text-align: start;
+    width: 428px;
+    line-height: 2em;
+    top: 5em;
+    left: 17.5em;
+    font-size: 17px;
+    color: #5C5C5C;
+}
+.man-smile h2{
+    position: absolute;
+    top: 15.5em;
+    left: 15em;
+    font-size: 20px;
+    color: #1C1C1C;
+    font-family: 'Cabin Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.man-smile span{
+    position: absolute;
+    top: 24em;
+    margin: 0 2.5em;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    color: #5C5C5C;
+
+}
+
+.man-glasses{
+    position: absolute;
+    margin: 0 32em;
+}
+
+.man-glasses:hover{
+    opacity: 0.5;
+}
+
+
+
+.arrow-left-solid{
+    width: 2em;
+    margin: 0.2em 1.5em;
+}
+
+.arrow-left{
+    position: absolute;
+    top: 445em;
+    left: 22em;
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.arrow-left:hover{
+    border: 2px solid #fff;
+}
+.arrow-right-solid{
+    width: 2em;
+    margin: 0.2em 1.5em;
+}
+.arrow-right{
+    position: absolute;
+    top: 15em;
+    left: 50em;
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.arrow-right:hover{
+    border: 2px solid #fff;
+}
+
+
+
+/* end client testimony */

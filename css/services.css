@@ -1,0 +1,273 @@
+.services{
+    position: absolute;
+    top: 65em;
+}
+.services h1{
+    position: absolute;
+    top: 0em;
+    left: 12em;
+    font-size: 62px;
+    font-weight: 700;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-variant-caps: all-petite-caps;
+}
+
+.services p{
+    position: absolute;
+    top: 3em;
+    left: 10em;
+    width: 1200px;
+    font-family: 'Work Sans', sans-serif;
+    color: #5C5C5C;
+    font-size: 1.5em;
+    text-align: center;
+}
+.services-container{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    left: 15em;
+    top: 20em;
+}
+
+
+
+.box-1{
+    width: 400px;
+    height: 450px;
+    border: 2px solid #1C1C1C;
+}
+
+
+.box-1 img{
+    width: 150px;
+    position: absolute;
+    top: 3em;
+    left: 8em;
+    color: #000;
+    object-fit: cover;
+}
+.box-1 span{
+    position: absolute;
+    top: 7em;
+    text-align: center;
+    color: #5C5C5C;
+    left: 4em;
+    font-size: 32px;
+    text-transform: uppercase; 
+    font-family: 'Work Sans', sans-serif;   
+}
+
+.box-1 p{
+    position: absolute;
+    top: 19em;
+    left: 1em;
+    font-size: 1em;
+    width: 350px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+.box-2{
+    position: absolute;
+    top: 0em;
+    left: 27em;
+    width: 400px;
+    height: 450px;
+    border: 2px solid #1C1C1C;
+}
+
+.box-2 img{
+    width: 150px;
+    position: absolute;
+    left: 8em;
+    padding: 2em 0em;
+    
+}
+.box-2 span{
+    position: absolute;
+    top: 7em;
+    text-align: center;
+    left: 4em;
+    color: #5C5C5C;
+    font-size: 32px;
+    text-transform: uppercase; 
+    font-family: 'Work Sans', sans-serif;   
+}
+
+.box-2 p{
+    position: absolute;
+    top: 0em;
+    left: 2em;
+    padding: 19em 0em;
+    font-size: 1em;
+    width: 350px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+
+
+.box-3{
+    position: absolute;
+    top: 0em;
+    left: 57em;
+    width: 400px;
+    height: 450px;
+    border: 2px solid #1C1C1C;
+}
+.box-3 img{
+    position: absolute;
+    width: 150px;
+    left: 8em;
+    padding: 3em 0em;
+} 
+.box-3 span{
+    position: absolute;
+    left: 4em;
+    padding: 7em 0;
+    font-size: 32px;
+    color: #5C5C5C;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.box-3 p{
+    position: absolute;
+    text-align: center;
+    top: 0em;
+    left: 1.3em;
+    padding: 19em 0em;
+    font-size: 1em;
+    width: 350px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.box-4{
+    position: absolute;
+    top: 35em;
+    width: 400px;
+    height: 450px;
+    border: 2px solid #1C1C1C;
+}
+
+.box-4 img{
+    position: absolute;
+    padding: 4em 0;
+    left: 8em;
+    width: 150px;
+}
+
+.box-4 span{
+    position: absolute;
+    font-size: 32px;
+    padding: 7em 0;
+    left: 4em;
+    color: #5C5C5C;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.box-4 p{
+    position: absolute;
+    text-align: center;
+    top: -34em;
+    left: 2em;
+    padding: 52em 0em;
+    font-size: 1em;
+    width: 350px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.box-5{
+    position: absolute;
+    top: 35em;
+    left: 27em;
+    width: 400px;
+    height: 450px;
+    border: 2px solid #1C1C1C;
+}
+
+.box-5 img{
+    width: 150px;
+    position: absolute;
+    padding: 5em 0;
+    left: 7em;
+}
+
+.box-5 span{
+    position: absolute;
+    /* top: 0em; */
+    padding: 8em 0em;
+    margin: 0em 3.5em;
+    color: #5C5C5C;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;    
+    text-transform: uppercase;
+}
+.box-5 p{
+    position: absolute;
+    width: 350px;
+    left: 1.2em;
+    padding: 16em 0;
+    font-size: 1em;
+}
+
+
+
+
+.box-6{
+    position: absolute;
+    top: 35em;
+    left: 57em;
+    width: 400px;
+    height: 450px;
+    border: 2px solid #1C1C1C;
+}
+
+.box-6:hover{
+    background-color: #000;
+}
+
+.box-6 img{
+    position: absolute;
+    left: 8em;
+    padding: 4em 0;
+}
+.box-6 span{
+    position: absolute;
+    padding: 7em 0;
+    margin: 0 3em;
+    color: #5C5C5C;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.box-6 span:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.box-6 p{
+    position: absolute;
+    width: 350px;
+    top: 18em;
+    left: 1.2em;
+    color: #5C5C5C;
+    font-size: 1em;
+}
+
+.box-6 p:hover{
+    cursor: pointer;
+    color: #fff;
+}
