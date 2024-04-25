@@ -17,6 +17,7 @@ a {
 
 body {
   overflow-x: hidden;
+  font-family: "Work Sans", sans-serif;
 }
 
 .container {
@@ -55,10 +56,25 @@ header {
   text-decoration: none;
   color: #1c1c1c;
   font-weight: 300;
-  font-family: "Work Sans", sans-serif;
 }
 /* ACTIVE STATE */
 .nav--link:hover,
 .nav--link:active {
   font-weight: 600;
+}
+
+.singin-up a:link,
+.singin-up a:visited {
+  margin-left: 1rem;
+  text-decoration: underline;
+  padding: 1rem 1.5rem;
+  color: #1c1c1c;
+  font-weight: 500;
+}
+
+.singin-up a:hover,
+.singin-up a:active {
+  text-decoration: none;
+  background-color: #1c1c1c;
+  color: #fff;
 }
