@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url(/css/cabinet-grotesk.css);
+
+@font-face {
+  font-family: "Tetra", sans-serif;
+  src: url(/fonts/Tetra.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Work Sans", sans-serif;
+  background-color: #eceaea;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+.container {
+  max-width: 80rem;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-family: "CabinetGrotesk-Bold", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+.logo {
+  font-family: "Tetra", sans-serif;
+  letter-spacing: 0.156rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav--link {
+  margin-left: 4.5rem;
+  font-size: 0.875rem;
+}
+
+.nav--link:link,
+.nav--link:visited {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 300;
+}
+/* ACTIVE STATE */
+.nav--link:hover,
+.nav--link:active {
+  font-weight: 600;
+}
+
+.singin-up a:link,
+.singin-up a:visited {
+  margin-left: 1rem;
+  text-decoration: underline;
+  padding: 1rem 1.5rem;
+  color: #1c1c1c;
+  font-weight: 500;
+}
+
+.singin-up a:hover,
+.singin-up a:active {
+  text-decoration: none;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.main-header {
+  font-family: "CabinetGrotesk-Regular", sans-serif;
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+.main-subheader {
+  font-family: "CabinetGrotesk-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center {
+  line-height: 2;
+  flex-direction: column;
+}
