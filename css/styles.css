@@ -16,8 +16,9 @@ Hero Section
 
 .rectangle-box {
   position: absolute;
-  top: 50%;
-  transform: translate(0, 10rem);
+  /* top: 50%; */
+  /* transform: translate(0, 10rem); */
+  inset: 40rem 0 0 10rem;
   width: 58%;
   height: 100px;
   background-color: #fff;
@@ -31,19 +32,45 @@ Hero Section
   margin-left: 2rem;
   /* justify-content: space-around; */
   line-height: 1.5;
+
+  & span {
+    color: #5c5c5c;
+    font-weight: 300;
+    font-size: 0.875rem;
+  }
+
+  & .search {
+    width: 50px;
+    height: 50px;
+    background-color: #1c1c1c;
+    position: relative;
+
+    & i {
+      color: #fff;
+      position: absolute;
+      inset: 1rem;
+    }
+  }
 }
 
-.categories-property span {
+/* .categories-property span {
   color: #5c5c5c;
   font-weight: lighter;
   font-size: 0.875rem;
-}
+} */
 
-.categories-property > .search {
-  width: 50px;
-  height: 50px;
-  background-color: #1c1c1c;
-}
+/* .categories-property {
+  & span {
+    color: #5c5c5c;
+    font-weight: lighter;
+    font-size: 0.875rem;
+  }
+  & .search {
+    width: 50px;
+    height: 50px;
+    background-color: #1c1c1c;
+  }
+} */
 
 .categories-property p {
   color: #1c1c1c;
@@ -55,19 +82,92 @@ Hero Section
 Service Section
 ****************************************************************
 */
-.flex-center p {
+
+/* .services {
+  flex-direction: column;
+  border: 1px solid #1c1c1c;
+} */
+
+.services-rended {
+  margin-top: 2rem;
+  display: grid;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  grid-template-columns: repeat(3, 3fr);
+
+  & .services {
+    width: 20rem;
+    flex-direction: column;
+    border: 1px solid #1c1c1c;
+    padding-block: 2rem;
+    padding-inline: 1.58rem;
+
+    & h4 {
+      color: #5c5c5c;
+      text-transform: uppercase;
+      font-size: 1.125rem;
+      margin-top: 1rem;
+    }
+
+    & p {
+      line-height: 1.5;
+      margin-top: 1rem;
+    }
+
+    & img {
+      aspect-ratio: 1;
+    }
+
+    &.active {
+      background-color: #1c1c1c;
+      h4 {
+        color: #fff;
+      }
+      p {
+        color: #fff;
+      }
+    }
+  }
+}
+
+& .flex p {
   text-align: center;
   line-height: 1.5;
   color: #5c5c5c;
 }
 
-.services {
-  flex-direction: column;
-  border: 1px solid #1c1c1c;
+/*
+*************************************************************** 
+About us Section
+****************************************************************
+*/
+
+.about {
+  justify-content: space-around;
 }
 
-.services-rended {
-  display: grid;
-  gap: 5rem;
-  grid-template-columns: repeat(3, 3fr);
+.about-content {
+  & h2 {
+    margin-bottom: 1.5rem;
+  }
+  & p {
+    font-size: 0.937rem;
+    width: 28rem;
+    text-align: start;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+  }
+  & .link:link,
+  .link:visited {
+    font-weight: 300;
+    color: #fff;
+    background: #1c1c1c;
+    padding: 0.9rem 1rem;
+  }
+  &.link:active,
+  .link:hover {
+    transition: 0.5s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.65);
+  }
 }
