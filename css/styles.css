@@ -150,6 +150,7 @@ About us Section
 .about-content {
   & h2 {
     margin-bottom: 1.5rem;
+    text-transform: uppercase;
   }
   & p {
     font-size: 0.937rem;
