@@ -11,6 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 html {
@@ -109,7 +110,9 @@ h2 {
   margin-top: 5rem;
 }
 #service,
-#about-us {
+#about-us,
+#properties,
+#how-it-works {
   margin-top: 10rem;
 }
 

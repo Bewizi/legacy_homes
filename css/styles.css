@@ -172,3 +172,62 @@ About us Section
     background-color: rgba(0, 0, 0, 0.65);
   }
 }
+
+/*
+*************************************************************** 
+Properties Section
+****************************************************************
+*/
+
+.list-properties {
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.property {
+  border: 1px solid #1c1c1c;
+  width: 21rem;
+
+  & .property__text--content {
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    line-height: 2;
+
+    & .property-address {
+      margin-left: 0.5rem;
+      justify-content: flex-start;
+
+      i {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  & p {
+    text-align: start;
+    color: #1e1e1e;
+    margin-bottom: 0.867rem;
+  }
+
+  & button {
+    border: none;
+    background-color: #1e1e1e;
+    width: 100%;
+    color: #fff;
+    font-size: 0.945rem;
+    padding: 1rem 0;
+  }
+}
+
+ul {
+  color: #1e1e1edb;
+  font-weight: 300;
+  line-height: 2;
+  & .flex {
+    justify-content: space-between;
+  }
+}
+
+svg {
+  height: 100%;
+}
