@@ -228,6 +228,82 @@ ul {
   }
 }
 
-svg {
-  height: 100%;
+/*
+*************************************************************** 
+How it works Section
+****************************************************************
+*/
+
+.list__of-how-it-works {
+  margin-top: 5rem;
+}
+
+.container-list {
+  position: relative;
+}
+
+.list__1--2 {
+  justify-content: space-between;
+  & .list__item--for__how-it-works {
+    width: 30%;
+
+    & h3 {
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 0.467rem;
+    }
+  }
+}
+
+.svg-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  border: 1px solid #e0e0e0;
+}
+
+.svg__line--2 {
+  position: absolute;
+  /* height: ; */
+  inset: 0% 50%;
+  border: 1px solid #e0e0e0;
+}
+
+/*
+*************************************************************** 
+How it works Section
+****************************************************************
+*/
+
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.client__message {
+  background-color: #fff;
+  & .client {
+    /* background-color: #fff; */
+    width: 30rem;
+    /* padding: 1rem; */
+    & img {
+      margin-bottom: 1rem;
+    }
+    & blockquote {
+      color: #5c5c5c;
+      margin-bottom: 1rem;
+      line-height: 2;
+    }
+    padding-inline: 1rem;
+    & h3 {
+      text-transform: uppercase;
+      margin-bottom: 0.167rem;
+    }
+    & p {
+      text-align: start;
+    }
+  }
 }

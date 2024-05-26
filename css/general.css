@@ -48,6 +48,7 @@ h2 {
   font-family: "CabinetGrotesk-Bold", sans-serif;
   font-size: 2.4rem;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -112,7 +113,8 @@ h2 {
 #service,
 #about-us,
 #properties,
-#how-it-works {
+#how-it-works,
+#testimonial {
   margin-top: 10rem;
 }
 
