@@ -281,14 +281,20 @@ How it works Section
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  margin-top: 2rem;
+  position: relative;
 }
 
 .client__message {
   background-color: #fff;
+  & .client_image {
+    cursor: pointer;
+  }
   & .client {
-    /* background-color: #fff; */
     width: 30rem;
-    /* padding: 1rem; */
+
+    display: none;
+    padding-inline: 1rem;
     & img {
       margin-bottom: 1rem;
     }
@@ -297,7 +303,6 @@ How it works Section
       margin-bottom: 1rem;
       line-height: 2;
     }
-    padding-inline: 1rem;
     & h3 {
       text-transform: uppercase;
       margin-bottom: 0.167rem;
@@ -306,4 +311,35 @@ How it works Section
       text-align: start;
     }
   }
+}
+
+.client__message.blur {
+  /* opacity: 0.5; */
+  filter: brightness(0.45);
+}
+
+.client__message.active .client {
+  display: block;
+}
+
+.arrow {
+  & span {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 0.225rem;
+    font-size: 1.925rem;
+    padding-inline: 0.6rem;
+    cursor: pointer;
+  }
+}
+
+.left-arrow {
+  position: absolute;
+  inset: 18rem 8rem;
+  z-index: 999;
+}
+.right-arrow {
+  position: absolute;
+  inset: 18rem 68rem;
+  z-index: 999;
 }
