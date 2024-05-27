@@ -343,3 +343,84 @@ How it works Section
   inset: 18rem 68rem;
   z-index: 999;
 }
+
+/*
+*************************************************************** 
+Partners Section
+****************************************************************
+*/
+
+.partners {
+  justify-content: space-between;
+  gap: 5rem;
+  overflow: hidden;
+  & img {
+    max-width: none;
+    filter: grayscale(100%);
+    width: 20rem;
+    aspect-ratio: 0;
+  }
+}
+
+.about__partners {
+  padding-left: 10%;
+  width: 500rem;
+  & p {
+    line-height: 1.5;
+    text-align: start;
+    margin-bottom: 1rem;
+  }
+  & h3 {
+    font-size: 1.525rem;
+  }
+  & span {
+    color: #5c5c5c;
+  }
+
+  & button {
+    margin-top: 1rem;
+    background: none;
+    border: none;
+    color: #1c1c1c;
+  }
+
+  & .btn {
+    border: 1px solid #1c1c1c;
+    padding: 0.675rem 1.5rem;
+  }
+}
+
+.btn__active {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+/* .about__partners button {
+  background: none;
+  border: none;
+}
+
+.about__partners .btn {
+  border: 1px solid #1c1c1c;
+  padding: 0.5rem 1rem;
+} */
+
+.cofounder {
+  gap: 1rem;
+}
+
+.cofounder__image {
+  position: relative;
+}
+
+.cofounders {
+  position: absolute;
+  inset: 24rem 0;
+  z-index: 999;
+  color: #fff;
+  text-align: center;
+  & span {
+    font-weight: 300;
+    font-size: 0.825rem;
+  }
+}

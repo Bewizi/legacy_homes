@@ -18,6 +18,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -42,6 +46,7 @@ img {
 
 header {
   height: 10vh;
+  overflow: hidden;
 }
 
 h2 {
@@ -116,6 +121,11 @@ h2 {
 #how-it-works,
 #testimonial {
   margin-top: 10rem;
+  overflow: hidden;
+}
+
+#partners {
+  margin-top: 5rem;
 }
 
 .main-header {
