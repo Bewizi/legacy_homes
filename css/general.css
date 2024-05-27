@@ -44,6 +44,15 @@ img {
   margin: auto;
 }
 
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 header {
   height: 10vh;
   overflow: hidden;
@@ -126,6 +135,10 @@ h2 {
 
 #partners {
   margin-top: 5rem;
+}
+
+#newsletter {
+  margin-top: 20rem;
 }
 
 .main-header {

@@ -424,3 +424,72 @@ Partners Section
     font-size: 0.825rem;
   }
 }
+
+/*
+*************************************************************** 
+Newsletter Section
+****************************************************************
+*/
+
+.newsletter--section {
+  background-color: #1c1c1c;
+  position: relative;
+  height: 74vh;
+  color: #fff;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.newsletter--image {
+  position: absolute;
+  inset: -10rem 0;
+}
+
+.newsletter--content {
+  margin-left: 30rem;
+  max-width: 32rem;
+
+  & h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  & p {
+    color: #fff;
+    text-align: start;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.newsletter--email {
+  display: flex;
+  & input {
+    color: #fff;
+    border: none;
+    background: none;
+    width: 25rem;
+  }
+}
+
+.newsletter--input {
+  background-color: #5c5c5c;
+  padding: 1rem;
+}
+
+.newsletter--btn {
+  background-color: #fff;
+  width: 4rem;
+  color: #1c1c1c;
+
+  & i {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+    inset: 0.8rem 0.9rem;
+    border: 1px solid #1c1c1c;
+    font-size: 1.2rem;
+    padding-inline: 0.5rem;
+    border-radius: 0.425rem;
+  }
+}
