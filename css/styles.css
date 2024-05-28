@@ -493,3 +493,89 @@ Newsletter Section
     border-radius: 0.425rem;
   }
 }
+
+/*
+*************************************************************** 
+Footer Section
+****************************************************************
+*/
+
+.footer {
+  margin-top: 1rem;
+  background-color: rgba(28, 28, 28, 0.8);
+  background-image: url("/img/Rectangle4.png");
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 50vh;
+  filter: grayscale(100%);
+  color: #fff;
+}
+
+.footer--section {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+  padding-inline: 5rem;
+}
+
+.social-icons {
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.footer--section1 {
+  & h1 {
+    font-family: "Tetra", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  & p {
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    max-width: 22rem;
+  }
+}
+
+.footer--section2 {
+  h4 {
+    font-size: 1.345rem;
+    margin-bottom: 2rem;
+  }
+  ul {
+    color: #fff;
+    line-height: 2.5;
+  }
+}
+.footer--section3 {
+  h4 {
+    font-size: 1.345rem;
+    margin-bottom: 2rem;
+  }
+  ul {
+    color: #fff;
+    line-height: 2.5;
+  }
+}
+.footer--section4 {
+  h4 {
+    font-size: 1.345rem;
+    margin-bottom: 2rem;
+  }
+  address {
+    max-width: 20rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+
+  .anchor {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+  }
+
+  a {
+    color: #fff;
+  }
+}
