@@ -154,6 +154,10 @@ h2 {
   /* font-size: 3.2rem; */
 }
 
+.section--description {
+  color: #5c5c5c;
+}
+
 .flex {
   display: flex;
   align-items: center;

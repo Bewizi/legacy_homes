@@ -7,11 +7,12 @@
 
   .property {
     width: 21rem;
-
-    & img {
-      max-width: 100%;
-    }
   }
+
+  .properties--image {
+    max-width: 100%;
+  }
+
   .client__message {
     & .client {
       & blockquote {
