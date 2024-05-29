@@ -99,7 +99,7 @@ Service Section
 }
 
 .services {
-  width: 20rem;
+  max-width: 20rem;
   flex-direction: column;
   border: 1px solid #1c1c1c;
   padding-block: 2rem;
