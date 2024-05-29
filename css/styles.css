@@ -154,31 +154,31 @@ About us Section
 
 .about-content {
   margin-bottom: 2.5rem;
-  & h2 {
-    margin-bottom: 1.5rem;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  & p {
-    font-size: 0.937rem;
-    /* width: 28rem; */
-    text-align: start;
-    line-height: 2;
-    margin-bottom: 1.5rem;
-  }
+}
+.about--header {
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.about--description {
+  font-size: 0.937rem;
+  /* width: 28rem; */
+  text-align: start;
+  line-height: 2;
+  margin-bottom: 1.5rem;
+}
 
-  & .link:link,
-  .link:visited {
-    font-weight: 300;
-    color: #fff;
-    background: #1c1c1c;
-    padding: 0.9rem 1rem;
-  }
-  &.link:active,
-  .link:hover {
-    transition: 0.5s ease-in-out;
-    background-color: rgba(0, 0, 0, 0.65);
-  }
+.link:link,
+.link:visited {
+  font-weight: 300;
+  color: #fff;
+  background: #1c1c1c;
+  padding: 0.9rem 1rem;
+}
+.link:active,
+.link:hover {
+  transition: 0.5s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 /*
