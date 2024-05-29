@@ -96,38 +96,39 @@ Service Section
   column-gap: 2rem;
   row-gap: 1rem;
   grid-template-columns: repeat(1, 1fr);
+}
 
-  & .services {
-    width: 20rem;
-    flex-direction: column;
-    border: 1px solid #1c1c1c;
-    padding-block: 2rem;
-    padding-inline: 1.58rem;
+.services {
+  width: 20rem;
+  flex-direction: column;
+  border: 1px solid #1c1c1c;
+  padding-block: 2rem;
+  padding-inline: 1.58rem;
+  cursor: pointer;
 
-    & h4 {
-      color: #5c5c5c;
-      text-transform: uppercase;
-      font-size: 1.125rem;
-      margin-top: 1rem;
+  .service--header {
+    color: #5c5c5c;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 1rem;
+  }
+
+  .service--description {
+    line-height: 1.5;
+    margin-top: 1rem;
+  }
+
+  .services--image {
+    aspect-ratio: 1;
+  }
+
+  &.active {
+    background-color: #1c1c1c;
+    h4 {
+      color: #fff;
     }
-
-    & p {
-      line-height: 1.5;
-      margin-top: 1rem;
-    }
-
-    & img {
-      aspect-ratio: 1;
-    }
-
-    &.active {
-      background-color: #1c1c1c;
-      h4 {
-        color: #fff;
-      }
-      p {
-        color: #fff;
-      }
+    p {
+      color: #fff;
     }
   }
 }
