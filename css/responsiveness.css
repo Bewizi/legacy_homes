@@ -58,14 +58,14 @@ About us Section
     flex-direction: row;
   }
 
-  .about-content {
-    & h2 {
-      text-align: start;
-    }
-    & p {
-      max-width: 28rem;
-    }
+  .about--header {
+    text-align: start;
   }
+
+  .about--description {
+    max-width: 28rem;
+  }
+
   /*
 *************************************************************** 
 How it works Section
