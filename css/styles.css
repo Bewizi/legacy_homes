@@ -105,35 +105,36 @@ Service Section
   padding-block: 2rem;
   padding-inline: 1.58rem;
   cursor: pointer;
-
-  .service--header {
-    color: #5c5c5c;
-    text-transform: uppercase;
-    font-size: 1.125rem;
-    margin-top: 1rem;
-  }
-
-  .service--description {
-    line-height: 1.5;
-    margin-top: 1rem;
-  }
-
-  .services--image {
-    aspect-ratio: 1;
-  }
-
-  &.active {
-    background-color: #1c1c1c;
-    h4 {
-      color: #fff;
-    }
-    p {
-      color: #fff;
-    }
-  }
 }
 
-& .flex p {
+.service--header {
+  color: #5c5c5c;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 1rem;
+}
+
+.service--description {
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.services--image {
+  aspect-ratio: 1;
+}
+
+.services-btn,
+.active {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.active .service--header,
+.active .service--description {
+  color: white;
+}
+
+.service--description {
   text-align: center;
   line-height: 1.5;
   color: #5c5c5c;
