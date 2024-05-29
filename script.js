@@ -8,6 +8,7 @@ const clientOne = document.querySelector(".client__1");
 const clientTwo = document.querySelector(".client__2");
 const clientThree = document.querySelector(".client__3");
 const clientsMessages = document.querySelectorAll(".client__message");
+const client = document.querySelector(".client");
 const leftArrow = document.querySelector(".left-arrow");
 const rightArrow = document.querySelector(".right-arrow");
 

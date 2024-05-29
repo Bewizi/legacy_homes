@@ -6,33 +6,34 @@ Hero Section
 .hero-container {
   position: relative;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .hero-text {
   line-height: 1.5;
   color: #5c5c5c;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .rectangle-box {
   position: absolute;
-  /* top: 50%; */
-  /* transform: translate(0, 10rem); */
   inset: 40rem 0 0 10rem;
-  width: 58%;
+  max-width: 58%;
   height: 100px;
   background-color: #fff;
   box-shadow: 10px 0 10px 5px rgba(0, 0, 0, 0.4);
+  visibility: hidden;
 }
 
 .categories-property {
   margin-top: 1.5rem;
   justify-content: left;
-  gap: 5rem;
+  gap: 1rem;
   margin-left: 2rem;
   /* justify-content: space-around; */
   line-height: 1.5;
-
+  visibility: hidden;
   & span {
     color: #5c5c5c;
     font-weight: 300;
@@ -94,7 +95,7 @@ Service Section
   justify-content: center;
   column-gap: 2rem;
   row-gap: 1rem;
-  grid-template-columns: repeat(3, 3fr);
+  grid-template-columns: repeat(1, 1fr);
 
   & .services {
     width: 20rem;
@@ -145,20 +146,25 @@ About us Section
 
 .about {
   justify-content: space-around;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
 }
 
 .about-content {
+  margin-bottom: 2.5rem;
   & h2 {
     margin-bottom: 1.5rem;
     text-transform: uppercase;
+    text-align: center;
   }
   & p {
     font-size: 0.937rem;
-    width: 28rem;
+    /* width: 28rem; */
     text-align: start;
     line-height: 2;
     margin-bottom: 1.5rem;
   }
+
   & .link:link,
   .link:visited {
     font-weight: 300;
@@ -182,12 +188,16 @@ Properties Section
 .list-properties {
   gap: 2rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 
 .property {
   border: 1px solid #1c1c1c;
-  width: 21rem;
+  /* width: 21rem; */
 
+  & img {
+    width: 100%;
+  }
   & .property__text--content {
     padding-inline: 1rem;
     padding-block: 1rem;
@@ -234,6 +244,10 @@ How it works Section
 ****************************************************************
 */
 
+.how_it__works--section h2 {
+  font-size: 2rem;
+}
+
 .list__of-how-it-works {
   margin-top: 5rem;
 }
@@ -251,6 +265,11 @@ How it works Section
       text-transform: uppercase;
       text-align: center;
       margin-bottom: 0.467rem;
+      font-size: 0.867rem;
+    }
+
+    & p {
+      font-size: 0.767rem;
     }
   }
 }
@@ -272,9 +291,15 @@ How it works Section
 
 /*
 *************************************************************** 
-How it works Section
+Testimonial Section
 ****************************************************************
 */
+
+.testimonial--section h2 {
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
 
 .clients {
   display: flex;
@@ -286,29 +311,35 @@ How it works Section
 }
 
 .client__message {
-  background-color: #fff;
+  /* background-color: #fff; */
   & .client_image {
     cursor: pointer;
   }
   & .client {
-    width: 30rem;
+    background-color: #fff;
 
+    max-width: 52rem;
     display: none;
     padding-inline: 1rem;
     & img {
+      max-width: 10rem;
       margin-bottom: 1rem;
+      display: none;
     }
     & blockquote {
       color: #5c5c5c;
       margin-bottom: 1rem;
       line-height: 2;
+      font-size: 0.4rem;
     }
     & h3 {
       text-transform: uppercase;
       margin-bottom: 0.167rem;
+      font-size: 0.767rem;
     }
     & p {
       text-align: start;
+      font-size: 0.5rem;
     }
   }
 }
@@ -330,6 +361,7 @@ How it works Section
     font-size: 1.925rem;
     padding-inline: 0.6rem;
     cursor: pointer;
+    display: none;
   }
 }
 
@@ -351,20 +383,24 @@ Partners Section
 */
 
 .partners {
+  flex-direction: column;
   justify-content: space-between;
   gap: 5rem;
   overflow: hidden;
+  width: 80%;
+  max-width: 80rem;
+  margin: 0 auto;
   & img {
-    max-width: none;
+    /* max-width: none; */
     filter: grayscale(100%);
-    width: 20rem;
+    /* width: 20rem; */
     aspect-ratio: 0;
   }
 }
 
 .about__partners {
   padding-left: 10%;
-  width: 500rem;
+  /* width: 500rem; */
   & p {
     line-height: 1.5;
     text-align: start;
@@ -415,7 +451,7 @@ Partners Section
 
 .cofounders {
   position: absolute;
-  inset: 24rem 0;
+  inset: 14rem 0;
   z-index: 999;
   color: #fff;
   text-align: center;
@@ -434,7 +470,7 @@ Newsletter Section
 .newsletter--section {
   background-color: #1c1c1c;
   position: relative;
-  height: 74vh;
+  min-height: 75vh;
   color: #fff;
   display: flex;
   /* justify-content: space-between; */
@@ -442,15 +478,19 @@ Newsletter Section
 .newsletter--image {
   position: absolute;
   inset: -10rem 0;
+  visibility: hidden;
 }
 
 .newsletter--content {
-  margin-left: 30rem;
-  max-width: 32rem;
+  /* margin-left: 30rem; */
+  /* max-width: 32rem; */
+  width: 80%;
 
   & h4 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    /* white-space-collapse: discard; */
+    white-space: nowrap;
   }
 
   & p {
@@ -467,7 +507,7 @@ Newsletter Section
     color: #fff;
     border: none;
     background: none;
-    width: 25rem;
+    width: 15rem;
   }
 }
 
@@ -486,7 +526,7 @@ Newsletter Section
     align-items: center;
     justify-content: center; */
     position: relative;
-    inset: 0.8rem 0.9rem;
+    inset: 0.8rem 0.5rem;
     border: 1px solid #1c1c1c;
     font-size: 1.2rem;
     padding-inline: 0.5rem;
@@ -506,7 +546,7 @@ Footer Section
   background-image: url("/img/Rectangle4.png");
   background-size: cover;
   background-blend-mode: darken;
-  height: 50vh;
+  min-height: 50vh;
   filter: grayscale(100%);
   color: #fff;
 }
@@ -516,6 +556,8 @@ Footer Section
   justify-content: space-around;
   padding-top: 5rem;
   padding-inline: 5rem;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
 }
 
 .social-icons {

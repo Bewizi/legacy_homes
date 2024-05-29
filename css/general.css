@@ -42,6 +42,7 @@ img {
 .container {
   max-width: 80rem;
   margin: auto;
+  width: 80%;
 }
 
 .section {
@@ -144,12 +145,13 @@ h2 {
 .main-header {
   font-family: "CabinetGrotesk-Regular", sans-serif;
   font-weight: 500;
-  font-size: 2.8rem;
+  font-size: 2.256rem;
+  text-align: center;
 }
 .main-subheader {
   font-family: "CabinetGrotesk-Bold", sans-serif;
   font-weight: 700;
-  font-size: 5rem;
+  /* font-size: 3.2rem; */
 }
 
 .flex {

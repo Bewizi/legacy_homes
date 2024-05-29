@@ -1,0 +1,237 @@
+/* from 608px to 1,056px */
+
+@media (min-width: 38em) {
+  .services-rended {
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .property {
+    width: 21rem;
+
+    & img {
+      max-width: 100%;
+    }
+  }
+  .client__message {
+    & .client {
+      & blockquote {
+        font-size: 0.675rem;
+      }
+    }
+  }
+}
+
+/* from 1,056px to 1,200px */
+
+@media (min-width: 66em) {
+  .container {
+    width: 85%;
+  }
+
+  /*
+*************************************************************** 
+Hero Section
+****************************************************************
+*/
+  .hero-container {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .main-header {
+    text-align: start;
+    font-size: 2.8rem;
+  }
+
+  .main-subheader {
+    font-size: 3.2rem;
+  }
+
+  /*
+*************************************************************** 
+About us Section
+****************************************************************
+*/
+  .about {
+    gap: 5rem;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .about-content {
+    & h2 {
+      text-align: start;
+    }
+    & p {
+      max-width: 28rem;
+    }
+  }
+  /*
+*************************************************************** 
+How it works Section
+****************************************************************
+*/
+
+  .list__1--2 {
+    & .list__item--for__how-it-works {
+      /* width: 30%; */
+
+      & h3 {
+        font-size: 1rem;
+      }
+
+      & p {
+        font-size: 1rem;
+        max-width: 28rem;
+      }
+    }
+  }
+
+  /*
+*************************************************************** 
+Testimonial Section
+****************************************************************
+*/
+
+  .client__message {
+    /* background-color: #fff; */
+    & .client {
+      max-width: 30rem;
+
+      & img {
+        padding: 0.5rem 0;
+        visibility: hidden;
+      }
+      & blockquote {
+        font-size: 0.675rem;
+      }
+
+      & h3,
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .cofounders {
+    inset: 24rem 0;
+    & span {
+      font-size: 1rem;
+    }
+  }
+
+  /*
+*************************************************************** 
+Newsletter Section
+****************************************************************
+*/
+
+  .newsletter--content {
+    & p {
+      max-width: 53rem;
+    }
+  }
+
+  .newsletter--email {
+    & input {
+      width: 25rem;
+    }
+  }
+}
+
+/* from 1,200px above */
+
+@media (min-width: 75em) {
+  /*
+*************************************************************** 
+Hero Section
+****************************************************************
+*/
+
+  .rectangle-box {
+    visibility: visible;
+  }
+
+  .categories-property {
+    visibility: visible;
+    display: flex;
+    justify-content: space-around;
+
+    /* flex-direction: column; */
+  }
+
+  /*
+*************************************************************** 
+Service Section
+****************************************************************
+*/
+  .services-rended {
+    grid-template-columns: repeat(3, 3fr);
+  }
+
+  /*
+*************************************************************** 
+Testimonial Section
+****************************************************************
+*/
+
+  .client__message {
+    background-color: #fff;
+    & .client {
+      max-width: 30rem;
+      /* padding: 0.5rem 0; */
+      & img {
+        padding: 0.5rem 0;
+        display: block;
+      }
+      & blockquote {
+        font-size: 1rem;
+      }
+
+      & h3,
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  /*
+*************************************************************** 
+Partners Section
+****************************************************************
+*/
+  .partners {
+    flex-direction: row;
+    width: 100%;
+    & img {
+      max-width: none;
+      width: 20rem;
+    }
+  }
+
+  .about__partners {
+    padding-left: 10%;
+    /* max-width: 500rem; */
+  }
+
+  .cofounders {
+    inset: 24rem 0;
+    & span {
+      font-size: 1rem;
+    }
+  }
+
+  /*
+*************************************************************** 
+Newsletter Section
+****************************************************************
+*/
+  .newsletter--image {
+    visibility: visible;
+  }
+
+  .newsletter--content {
+    margin-left: 30rem;
+    max-width: 32rem;
+  }
+}
