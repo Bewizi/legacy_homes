@@ -402,12 +402,6 @@ Partners Section
   width: 80%;
   max-width: 80rem;
   margin: 0 auto;
-  & img {
-    /* max-width: none; */
-    filter: grayscale(100%);
-    /* width: 20rem; */
-    aspect-ratio: 0;
-  }
 }
 
 .about__partners {
@@ -462,18 +456,24 @@ Partners Section
 
 .cofounder__image {
   position: relative;
+  filter: grayscale(100%);
 }
 
 .cofounders {
   position: absolute;
-  inset: 14rem 0;
+  inset: 10rem 0;
   z-index: 999;
   color: #fff;
   text-align: center;
-  & span {
-    font-weight: 300;
-    font-size: 0.825rem;
-  }
+}
+
+.cofounders--name {
+  font-size: 0.825rem;
+}
+
+.cofounder__partner {
+  font-weight: 300;
+  font-size: 0.625rem;
 }
 
 /*

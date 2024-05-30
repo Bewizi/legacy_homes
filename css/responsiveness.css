@@ -16,6 +16,15 @@
   blockquote {
     font-size: 0.675rem;
   }
+
+  .cofounders--name {
+    font-size: 1rem;
+  }
+
+  .cofounder__partner {
+    font-weight: 300;
+    font-size: 1rem;
+  }
 }
 
 /* from 1,056px to 1,200px */
@@ -115,9 +124,10 @@ Partners Section
 
   .cofounders {
     inset: 24rem 0;
-    & span {
-      font-size: 1rem;
-    }
+  }
+
+  .cofounder__partner {
+    font-size: 1rem;
   }
 
   /*
@@ -208,12 +218,12 @@ Partners Section
   .partners {
     flex-direction: row;
     width: 100%;
-    & img {
-      max-width: none;
-      width: 20rem;
-    }
   }
 
+  .cofounder__image {
+    max-width: none;
+    width: 20rem;
+  }
   .about__partners {
     padding-left: 10%;
     /* max-width: 500rem; */
@@ -221,9 +231,10 @@ Partners Section
 
   .cofounders {
     inset: 24rem 0;
-    & span {
-      font-size: 1rem;
-    }
+  }
+
+  .cofounder__partner {
+    font-size: 1rem;
   }
 
   /*
