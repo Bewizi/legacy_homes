@@ -524,7 +524,7 @@ input[type="text"] {
 
 .newsletter--btn {
   background-color: #fff;
-  width: 4rem;
+  max-width: 14rem;
   color: #1c1c1c;
 }
 
@@ -572,47 +572,43 @@ Footer Section
   justify-content: flex-start;
 }
 
-.footer--section1 {
-  & h1 {
+
+  .footer-main-header {
     font-family: "Tetra", sans-serif;
     letter-spacing: 0.2rem;
     font-size: 2rem;
     margin-bottom: 2rem;
   }
-  & p {
+  
+  .footer-description  {
     font-weight: 300;
     line-height: 1.5;
     margin-bottom: 2rem;
     max-width: 22rem;
   }
+
+.fa-brands{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.footer--section2 {
-  h4 {
+
+  .footer--sections__header{
     font-size: 1.345rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
-  ul {
+.footer--section2 >  ul {
     color: #fff;
-    line-height: 2.5;
+    line-height: 2;
+    margin-bottom: 1rem;
   }
+.footer--section3 > ul{
+  color: #fff;
+  line-height:2;
+  margin-bottom: 1rem;
 }
-.footer--section3 {
-  h4 {
-    font-size: 1.345rem;
-    margin-bottom: 2rem;
-  }
-  ul {
-    color: #fff;
-    line-height: 2.5;
-  }
-}
-.footer--section4 {
-  h4 {
-    font-size: 1.345rem;
-    margin-bottom: 2rem;
-  }
-  address {
+
+.footer--section4 > address {
     max-width: 20rem;
     line-height: 1.5;
     margin-bottom: 2rem;
@@ -621,10 +617,10 @@ Footer Section
   .anchor {
     display: flex;
     flex-direction: column;
-    line-height: 2.5;
+    line-height: 2;
   }
 
-  a {
+ .anchor a {
     color: #fff;
   }
-}
+
