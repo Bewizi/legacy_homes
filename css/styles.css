@@ -497,7 +497,6 @@ Newsletter Section
   font-size: 2rem;
   margin-bottom: 1rem;
   /* white-space-collapse: discard; */
-  white-space: nowrap;
 }
 
 .newsletter-description {
@@ -513,7 +512,7 @@ Newsletter Section
 
 input[type="text"] {
   color: #fff;
-  border: none;
+  border:none;
   background: none;
   width: 15rem;
 }
@@ -527,8 +526,9 @@ input[type="text"] {
   background-color: #fff;
   width: 4rem;
   color: #1c1c1c;
+}
 
-  & i {
+   .rarr-icon {
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -539,7 +539,7 @@ input[type="text"] {
     padding-inline: 0.5rem;
     border-radius: 0.425rem;
   }
-}
+
 
 /*
 *************************************************************** 
