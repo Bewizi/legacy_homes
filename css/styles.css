@@ -261,20 +261,24 @@ How it works Section
 
 .list__1--2 {
   justify-content: space-between;
-  & .list__item--for__how-it-works {
-    width: 30%;
+}
 
-    & h3 {
-      text-transform: uppercase;
-      text-align: center;
-      margin-bottom: 0.467rem;
-      font-size: 0.867rem;
-    }
+.list__item--for__how-it-works {
+  width: 30%;
+}
 
-    & p {
-      font-size: 0.767rem;
-    }
-  }
+.how-it-works__header {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0.467rem;
+  font-size: 0.867rem;
+}
+
+.how-it-works__description {
+  font-size: 0.767rem;
+  color: #5c5c5c;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .svg-flex {
