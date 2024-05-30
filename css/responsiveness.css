@@ -141,16 +141,12 @@ Newsletter Section
 ****************************************************************
 */
 
-  .newsletter--content {
-    & p {
-      max-width: 53rem;
-    }
+  .newsletter-description {
+    max-width: 53rem;
   }
 
-  .newsletter--email {
-    & input {
-      width: 25rem;
-    }
+  input[type="text"] {
+    width: 25rem;
   }
 }
 

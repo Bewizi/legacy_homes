@@ -491,30 +491,31 @@ Newsletter Section
   /* margin-left: 30rem; */
   /* max-width: 32rem; */
   width: 80%;
+}
 
-  & h4 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    /* white-space-collapse: discard; */
-    white-space: nowrap;
-  }
+.newsletter-header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  /* white-space-collapse: discard; */
+  white-space: nowrap;
+}
 
-  & p {
-    color: #fff;
-    text-align: start;
-    line-height: 2;
-    margin-bottom: 1.5rem;
-  }
+.newsletter-description {
+  color: #fff;
+  text-align: start;
+  line-height: 2;
+  margin-bottom: 1.5rem;
 }
 
 .newsletter--email {
   display: flex;
-  & input {
-    color: #fff;
-    border: none;
-    background: none;
-    width: 15rem;
-  }
+}
+
+input[type="text"] {
+  color: #fff;
+  border: none;
+  background: none;
+  width: 15rem;
 }
 
 .newsletter--input {
