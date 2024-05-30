@@ -13,6 +13,10 @@
     max-width: 100%;
   }
 
+  .client__message {
+    background-color: #fff;
+  }
+
   blockquote {
     font-size: 0.675rem;
   }
@@ -99,6 +103,7 @@ Testimonial Section
 
   .client__message {
     /* background-color: #fff; */
+    flex-wrap: nowrap;
   }
   .client {
     max-width: 30rem;

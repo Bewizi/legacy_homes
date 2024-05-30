@@ -322,11 +322,13 @@ Testimonial Section
 
 .client__message {
   /* background-color: #fff; */
+  flex-wrap: wrap;
 }
 .client {
   background-color: #fff;
   max-width: 52rem;
   display: none;
+  padding: 1rem 0;
   padding-inline: 1rem;
 }
 
@@ -335,9 +337,9 @@ Testimonial Section
 }
 
 .quote-svg {
-  max-width: 10rem;
+  max-width: 2rem;
   margin-bottom: 1rem;
-  visibility: hidden;
+  visibility: visible;
 }
 
 blockquote {
@@ -407,17 +409,6 @@ Partners Section
 .about__partners {
   padding-left: 10%;
   /* width: 500rem; */
-  & p {
-    /* line-height: 1.5;
-    text-align: start;
-    margin-bottom: 1rem; */
-  }
-  & h3 {
-    font-size: 1.525rem;
-  }
-  & span {
-    color: #5c5c5c;
-  }
 }
 
 .about-partner {
