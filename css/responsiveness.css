@@ -13,12 +13,8 @@
     max-width: 100%;
   }
 
-  .client__message {
-    & .client {
-      & blockquote {
-        font-size: 0.675rem;
-      }
-    }
+  blockquote {
+    font-size: 0.675rem;
   }
 }
 
@@ -94,23 +90,28 @@ Testimonial Section
 
   .client__message {
     /* background-color: #fff; */
-    & .client {
-      max-width: 30rem;
-
-      & img {
-        padding: 0.5rem 0;
-        visibility: hidden;
-      }
-      & blockquote {
-        font-size: 0.675rem;
-      }
-
-      & h3,
-      p {
-        font-size: 1rem;
-      }
-    }
   }
+  .client {
+    max-width: 30rem;
+  }
+
+  .quote-svg {
+    padding: 0.5rem 0;
+    visibility: hidden;
+  }
+  blockquote {
+    font-size: 0.675rem;
+  }
+
+  .client-name {
+    font-size: 1rem;
+  }
+
+  /*
+*************************************************************** 
+Partners Section
+****************************************************************
+*/
 
   .cofounders {
     inset: 24rem 0;
@@ -176,22 +177,27 @@ Testimonial Section
 
   .client__message {
     background-color: #fff;
-    & .client {
-      max-width: 30rem;
-      /* padding: 0.5rem 0; */
-      & img {
-        padding: 0.5rem 0;
-        display: block;
-      }
-      & blockquote {
-        font-size: 1rem;
-      }
+  }
+  .client {
+    max-width: 30rem;
+    /* padding: 0.5rem 0; */
+  }
 
-      & h3,
-      p {
-        font-size: 1rem;
-      }
-    }
+  .quote-svg {
+    padding: 0.5rem 0;
+    visibility: visible;
+  }
+  blockquote {
+    font-size: 1rem;
+  }
+
+  .client-name,
+  .client-country {
+    font-size: 1rem;
+  }
+
+  .arrow > span {
+    display: block;
   }
 
   /*

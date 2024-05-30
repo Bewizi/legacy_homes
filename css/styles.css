@@ -225,10 +225,13 @@ i {
 button {
   border: none;
   background-color: #1e1e1e;
-  width: 100%;
   color: #fff;
   font-size: 0.945rem;
   padding: 1rem 0;
+}
+
+.view-btn {
+  width: 100%;
 }
 
 ul {
@@ -319,36 +322,41 @@ Testimonial Section
 
 .client__message {
   /* background-color: #fff; */
-  & .client_image {
-    cursor: pointer;
-  }
-  & .client {
-    background-color: #fff;
+}
+.client {
+  background-color: #fff;
+  max-width: 52rem;
+  display: none;
+  padding-inline: 1rem;
+}
 
-    max-width: 52rem;
-    display: none;
-    padding-inline: 1rem;
-    & img {
-      max-width: 10rem;
-      margin-bottom: 1rem;
-      display: none;
-    }
-    & blockquote {
-      color: #5c5c5c;
-      margin-bottom: 1rem;
-      line-height: 2;
-      font-size: 0.4rem;
-    }
-    & h3 {
-      text-transform: uppercase;
-      margin-bottom: 0.167rem;
-      font-size: 0.767rem;
-    }
-    & p {
-      text-align: start;
-      font-size: 0.5rem;
-    }
-  }
+.client_image {
+  cursor: pointer;
+}
+
+.quote-svg {
+  max-width: 10rem;
+  margin-bottom: 1rem;
+  visibility: hidden;
+}
+
+blockquote {
+  color: #5c5c5c;
+  margin-bottom: 1rem;
+  line-height: 2;
+  font-size: 0.4rem;
+}
+
+.client-name {
+  text-transform: uppercase;
+  margin-bottom: 0.167rem;
+  font-size: 0.767rem;
+  color: #1c1c1c;
+}
+.client-country {
+  text-align: start;
+  font-size: 0.5rem;
+  color: #5c5c5c;
 }
 
 .client__message.blur {
@@ -360,26 +368,23 @@ Testimonial Section
   display: block;
 }
 
-.arrow {
-  & span {
-    border: 1px solid #fff;
-    color: #fff;
-    border-radius: 0.225rem;
-    font-size: 1.925rem;
-    padding-inline: 0.6rem;
-    cursor: pointer;
-    display: none;
-  }
+.arrow > span {
+  color: #5c5c5c;
+  border-radius: 0.225rem;
+  font-size: 1.925rem;
+  padding-inline: 0.6rem;
+  cursor: pointer;
+  display: none;
 }
 
 .left-arrow {
   position: absolute;
-  inset: 18rem 8rem;
+  inset: 18rem 6rem;
   z-index: 999;
 }
 .right-arrow {
   position: absolute;
-  inset: 18rem 68rem;
+  inset: 18rem 66rem;
   z-index: 999;
 }
 
@@ -409,9 +414,9 @@ Partners Section
   padding-left: 10%;
   /* width: 500rem; */
   & p {
-    line-height: 1.5;
+    /* line-height: 1.5;
     text-align: start;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; */
   }
   & h3 {
     font-size: 1.525rem;
@@ -419,18 +424,21 @@ Partners Section
   & span {
     color: #5c5c5c;
   }
+}
 
-  & button {
-    margin-top: 1rem;
-    background: none;
-    border: none;
-    color: #1c1c1c;
-  }
+.about-partner {
+  line-height: 1.5;
+  text-align: start;
+  margin-bottom: 1rem;
+}
 
-  & .btn {
-    border: 1px solid #1c1c1c;
-    padding: 0.675rem 1.5rem;
-  }
+.btn {
+  color: #1c1c1c;
+  margin-top: 1rem;
+
+  background: none;
+  border: 1px solid #1c1c1c;
+  padding: 0.675rem 1.5rem;
 }
 
 .btn__active {
