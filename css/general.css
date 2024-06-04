@@ -88,6 +88,7 @@ h2 {
 .nav-list {
   list-style: none;
   display: flex;
+  visibility: hidden;
 }
 
 .nav--link {
@@ -105,6 +106,10 @@ h2 {
 .nav--link:hover,
 .nav--link:active {
   font-weight: 600;
+}
+
+.singin-up {
+  display: none;
 }
 
 .singin-up a:link,

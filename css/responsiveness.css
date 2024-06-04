@@ -38,6 +38,14 @@
     width: 85%;
   }
 
+  .nav-list {
+    visibility: visible;
+  }
+
+  .singin-up {
+    display: block;
+  }
+
   /*
 *************************************************************** 
 Hero Section
