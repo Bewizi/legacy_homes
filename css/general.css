@@ -7,7 +7,9 @@
   src: url(/fonts/Tetra.ttf) format("truetype");
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -88,6 +90,9 @@ h2 {
 .nav-list {
   list-style: none;
   display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
   visibility: hidden;
 }
 
@@ -109,7 +114,7 @@ h2 {
 }
 
 .singin-up {
-  display: none;
+  visibility: hidden;
 }
 
 .singin-up a:link,
@@ -175,4 +180,20 @@ h2 {
 .flex-center {
   line-height: 2;
   flex-direction: column;
+}
+
+/* nav menu icons */
+.menu-xmark {
+  display: flex;
+  position: relative;
+}
+.menu-xmark i {
+  position: absolute;
+  font-size: 1.5rem;
+  /* inset: 0 -24rem; */
+  max-width: -20rem;
+}
+
+i.fa-xmark {
+  visibility: hidden;
 }

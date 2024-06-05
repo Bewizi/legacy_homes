@@ -12,6 +12,27 @@ const client = document.querySelector(".client");
 const leftArrow = document.querySelector(".left-arrow");
 const rightArrow = document.querySelector(".right-arrow");
 
+const menuBar = document.querySelector(".fa-bars");
+const xmark = document.querySelector(".fa-xmark");
+const navList = document.querySelector(".nav-list");
+
+// menu bar
+
+const openNav = () => {
+  menuBar.style.visibility = "hidden";
+  xmark.style.visibility = "visible";
+  navList.style.visibility = "visible";
+};
+
+const closeNav = () => {
+  menuBar.style.visibility = "visible";
+  xmark.style.visibility = "hidden";
+  navList.style.visibility = "hidden";
+};
+
+menuBar.addEventListener("click", openNav);
+xmark.addEventListener("click", closeNav);
+
 // Sticky Header
 const stickyHeader = function (entries) {
   const [entry] = entries;
