@@ -58,7 +58,7 @@ img {
 
 header {
   height: 10vh;
-  overflow: hidden;
+  /* overflow-x: hidden; */
 }
 
 h2 {
